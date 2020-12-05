@@ -59,3 +59,7 @@ The Current Moodle version in production has php7.4, so that's what i'm going to
     > sudo apt update
 
     > sudo apt -y install php7.4
+
+php 7.4 pcre and spl extensions are installed by default and are enabled.
+
+    > sudo apt install php7.4-json php7.4-iconv php7.4-mbstring curl php7.4-curl php7.4-mysql php7.4-xml unzip php7.4-zip openssl php7.4-xmlrpc php7.4-dom php7.4-intl php7.4-simplexml php7.4-gd php7.4-ctype php7.4-soap php7.4-tokenizer 
