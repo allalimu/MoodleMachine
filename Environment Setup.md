@@ -1,6 +1,6 @@
-# Moodle Clean Installation Commands
+# Environment Setup for Clean Moodle Setup
 
-## Requirements:
+## Machine Requirements:
 
 Look into the vagrant File.
 
@@ -20,7 +20,7 @@ Look into the vagrant File.
 
     > sudo apt update
 
-### Mysql Installation
+### MySQL Installation
 
     > sudo apt install mysql-server
 
@@ -42,13 +42,13 @@ As you can see in the query, the root user is using the auth_socket plugin.
     mysql> FLUSH PRIVILEGES;
     mysql> exit;
 
-Now, we must restart the serivce for the new configurations to be accepted.
+Now, we must restart the service for the new configurations to be accepted.
 
     > sudo service mysql restart
 
 ### php installation
 
-The Current Moodle version in production has php7.4, so that's what i'm going to install.
+The Current Moodle version in production has php7.4, so that's what I'm going to install.
 
     > sudo apt update
 
